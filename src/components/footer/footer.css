@@ -1,0 +1,153 @@
+.center-lalasia{
+    display: flex;
+    align-items: center;
+}
+
+.end{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+    /* Text Color */
+    color: #151411;
+}
+
+.product-row1{
+    font-style: normal;
+    font-weight: 700;   
+    font-size: 20px;
+    line-height: 130%;
+    /* identical to box height, or 26px */
+    /* Text Color */
+    color: #151411;
+}
+
+.product-row2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+    /* Text Color */
+    color: #151411;
+}
+
+.product-row3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+    /* Text Color */
+    color: #151411;
+}
+
+.product-row4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+    /* Text Color */
+    color: #151411;
+}
+
+.product-row5{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+    /* Text Color */
+    color: #151411;
+}
+
+.Product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.footer-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 42%;
+}
+
+.center-end{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.logo-lala{
+    width: 42px;
+}
+
+.logo-lala img{
+    width: 100%;
+}
+@media only screen and ( max-width : 540px) {
+    .logo-lala{
+       width: 32px ;
+    }
+
+    #content{
+        font-size: 15px;
+    }
+
+    .end{
+        font-size: 14px;
+    }
+
+    .product-row1{
+        font-size: 16px;
+    }
+
+    .product-row2{
+        font-size: 14px;
+    }
+
+    .product-row3{
+        font-size: 14px;
+    }
+
+    .product-row4{
+        font-size: 14px;
+    }
+
+    .product-row5{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .footer-container{
+        display: flex;
+        flex-direction:column;
+        width: 90% !important;
+    }
+    .center-end{
+        width: 100%;
+    }
+    .footer-child {
+        width: 100%;
+        padding: 20px 0px;
+    }
+}
+
+@media only screen and (max-width:1279px){
+    .footer-container{
+        width: 80% !important;
+    }
+}
